@@ -1,0 +1,39 @@
+{
+  "name": "fp-ts-record-unions",
+  "version": "1.0.0",
+  "description": "fp-ts record unions",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "ts-node test.ts",
+    "build": "tsc --declaration --outDir lib index.ts",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevemao/fp-ts-record-unions.git"
+  },
+  "keywords": [
+    "fp-ts",
+    "group",
+    "chop"
+  ],
+  "author": "Steve Mao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevemao/fp-ts-record-unions/issues"
+  },
+  "homepage": "https://github.com/stevemao/fp-ts-record-unions#readme",
+  "peerDependencies": {
+    "fp-ts": "^2.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "fp-ts": "^2.5.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  }
+}
